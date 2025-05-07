@@ -26,4 +26,29 @@ void input()
         cout << "<" << (i + 1) << "> ";
         cin >> arr[i];
     }
-};
+}
+
+void LinearSerch()
+{
+    char ch;
+    int ctr; // Number of comprison 
+    int item;
+
+    do
+    {
+        //accept the number to be searched
+        cout << "\nEnter the element you want to serch: "; // step 1
+        cin >> item;
+
+        ctr = 0; // step 2
+        while (1 < n) // step 3
+        {
+            ctr++;
+            if (arr[i] == item)
+            {
+
+            }
+        }
+    }
+    
+}
