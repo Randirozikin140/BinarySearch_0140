@@ -38,14 +38,18 @@ void bubleSortArray()
     {
         for (int j = 0; j <= nPanjang - 1 - pass; j++)
         {
-            int temp = element[j];
-            element[j] = element [j + 1];
-            element[j + 1] = temp;
+            if (element[j] > element[j + 1])
+            {
+                int temp = element[j];
+                element[j] = element[j + 1];
+                element[j + 1] = temp;
+            } 
         }
-    } 
-    pass++;
-}while (condition)
+        pass++;
+    }while (pass <= nPanjang -1);
+}
+
+void display()
 {
     
 }
-    
