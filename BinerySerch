@@ -65,7 +65,12 @@ void display()
     cout << endl;
 }
 
-void binarySerch()
+void binarySearch()
 {
     char ulang;
+    do
+    {
+        /* code */
+    } while (condition);
+    
 }
