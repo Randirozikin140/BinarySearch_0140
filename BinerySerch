@@ -34,4 +34,5 @@ void input()
 void bubleSortArray()
 {
     int pass = 1;
+    do
 }
